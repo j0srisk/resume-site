@@ -1,11 +1,25 @@
 body{
     margin: 0px;
-    background-color: #028080;
+    background-image: url("./images/bliss.jpeg");
+    background-size: cover;
 }
 
 .main {
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px
+}
+
+.link-button {
+    display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
