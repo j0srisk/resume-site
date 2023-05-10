@@ -8,6 +8,15 @@
     <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/xp.css" />
     <link rel="stylesheet" href="./style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZTXK8WX7Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6ZTXK8WX7Q');
+    </script>
 </head>
 <body>
     <main>
@@ -25,7 +34,6 @@
         <div class="window-body">
             <p>Hello, world! Welcome to my site!</p>
             <p>This is a simple landing page hosted on Azure that auto deploys when new commits are pushed to GitHub.</p>
-            <p>Analytics for this site are handled by a self hosted Matomo Docker container connected to a MariaDB database on my server.</p>
             <p>Feel free to follow the links below to connect or check out my other work. Thanks for stopping by!</p>
             <div class="button-wrapper">
                 <button class="link-button"><a href="https://www.linkedin.com/in/josephrisk/">LinkedIn</a></button>
